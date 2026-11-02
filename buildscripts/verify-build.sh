@@ -5,7 +5,7 @@ set -e
 set -E
 set -o pipefail
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
@@ -26,7 +26,7 @@ export ENABLE_ADMIN=1
 export MINIO_CI_CD=1
 
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR")
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR")
 
 FILE_1_MB="$MINT_DATA_DIR/datafile-1-MB"
 FILE_65_MB="$MINT_DATA_DIR/datafile-65-MB"

@@ -23,7 +23,7 @@ help: ## print this help
 
 getdeps: ## fetch necessary dependencies
 	@mkdir -p ${GOPATH}/bin
-	@echo "Installing golangci-lint" && go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint.1.6
+	@echo "Installing golangci-lint" && go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.1.6
 
 crosscompile: ## cross compile minio
 	@(env bash $(PWD)/buildscripts/cross-compile.sh)
