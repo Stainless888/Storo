@@ -1,0 +1,10 @@
+name: smoke
+on:
+  push:
+    branches: [master]
+  pull_request:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello-storo
