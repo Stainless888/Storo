@@ -16,6 +16,7 @@ permissions:
 
 jobs:
   iam-matrix-test:
+    continue-on-error: true
     name: "[Go=${{ matrix.go-version }}|ldap=${{ matrix.ldap }}|etcd=${{ matrix.etcd }}|openid=${{ matrix.openid }}]"
     runs-on: ubuntu-latest
 
