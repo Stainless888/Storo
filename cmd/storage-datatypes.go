@@ -20,9 +20,9 @@ package cmd
 import (
 	"time"
 
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/grid"
-	xioutil "github.com/minio/minio/internal/ioutil"
+	"github.com/Stainless888/Storo/internal/crypto"
+	"github.com/Stainless888/Storo/internal/grid"
+	xioutil "github.com/Stainless888/Storo/internal/ioutil"
 )
 
 //msgp:clearomitted

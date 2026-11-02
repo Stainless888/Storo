@@ -22,7 +22,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/minio/minio/internal/disk"
+	"github.com/Stainless888/Storo/internal/disk"
 )
 
 var (

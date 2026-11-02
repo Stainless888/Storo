@@ -1,4 +1,4 @@
-module github.com/minio/minio
+module github.com/Stainless888/Storo
 
 go 1.24.0
 

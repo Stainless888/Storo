@@ -36,13 +36,13 @@ import (
 	"strings"
 
 	"github.com/minio/kms-go/kes"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/etag"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	"github.com/Stainless888/Storo/internal/crypto"
+	"github.com/Stainless888/Storo/internal/etag"
+	"github.com/Stainless888/Storo/internal/hash"
+	"github.com/Stainless888/Storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/Storo/internal/kms"
+	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/sio"
 )
 

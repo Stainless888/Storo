@@ -17,7 +17,7 @@
 
 package etcd
 
-import "github.com/minio/minio/internal/config"
+import "github.com/Stainless888/Storo/internal/config"
 
 // etcd config documented in default config
 var (

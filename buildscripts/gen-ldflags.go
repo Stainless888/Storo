@@ -33,13 +33,13 @@ func genLDFlags(version string) string {
 	releaseTag, date := releaseTag(version)
 	copyrightYear := strconv.Itoa(date.Year())
 	ldflagsStr := "-s -w"
-	ldflagsStr += " -X github.com/minio/minio/cmd.Version=" + version
-	ldflagsStr += " -X github.com/minio/minio/cmd.CopyrightYear=" + copyrightYear
-	ldflagsStr += " -X github.com/minio/minio/cmd.ReleaseTag=" + releaseTag
-	ldflagsStr += " -X github.com/minio/minio/cmd.CommitID=" + commitID()
-	ldflagsStr += " -X github.com/minio/minio/cmd.ShortCommitID=" + commitID()[:12]
-	ldflagsStr += " -X github.com/minio/minio/cmd.GOPATH=" + os.Getenv("GOPATH")
-	ldflagsStr += " -X github.com/minio/minio/cmd.GOROOT=" + os.Getenv("GOROOT")
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.Version=" + version
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.CopyrightYear=" + copyrightYear
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.ReleaseTag=" + releaseTag
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.CommitID=" + commitID()
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.ShortCommitID=" + commitID()[:12]
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.GOPATH=" + os.Getenv("GOPATH")
+	ldflagsStr += " -X github.com/Stainless888/Storo/cmd.GOROOT=" + os.Getenv("GOROOT")
 	return ldflagsStr
 }
 

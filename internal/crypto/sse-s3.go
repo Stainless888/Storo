@@ -25,9 +25,9 @@ import (
 	"path"
 	"strings"
 
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/Storo/internal/kms"
+	"github.com/Stainless888/Storo/internal/logger"
 )
 
 type sses3 struct{}

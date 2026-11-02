@@ -33,9 +33,9 @@ import (
 	"testing"
 
 	"github.com/klauspost/compress/s2"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config/compress"
-	"github.com/minio/minio/internal/crypto"
+	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/Storo/internal/config/compress"
+	"github.com/Stainless888/Storo/internal/crypto"
 	"github.com/minio/pkg/v3/trie"
 )
 

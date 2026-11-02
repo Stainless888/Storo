@@ -18,8 +18,8 @@
 package logger
 
 import (
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/logger/target/http"
+	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/Storo/internal/logger/target/http"
 )
 
 // Legacy envs

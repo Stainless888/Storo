@@ -29,12 +29,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/amztime"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/handlers"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/Stainless888/Storo/internal/amztime"
+	"github.com/Stainless888/Storo/internal/crypto"
+	"github.com/Stainless888/Storo/internal/handlers"
+	"github.com/Stainless888/Storo/internal/hash"
+	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/pkg/v3/policy"
 	xxml "github.com/minio/xxml"
 )
@@ -890,7 +890,7 @@ func generateMultiDeleteResponse(quiet bool, deletedObjects []DeletedObject, err
 
 func writeResponse(w http.ResponseWriter, statusCode int, response []byte, mType mimeType) {
 	// Don't write a response if one has already been written.
-	// Fixes https://github.com/minio/minio/issues/21633
+	// Fixes https://github.com/Stainless888/Storo/issues/21633
 	if headersAlreadyWritten(w) {
 		return
 	}

@@ -34,12 +34,12 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/hash"
-	xioutil "github.com/minio/minio/internal/ioutil"
+	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/Storo/internal/bucket/object/lock"
+	"github.com/Stainless888/Storo/internal/bucket/versioning"
+	"github.com/Stainless888/Storo/internal/color"
+	"github.com/Stainless888/Storo/internal/hash"
+	xioutil "github.com/Stainless888/Storo/internal/ioutil"
 	"github.com/minio/pkg/v3/console"
 )
 

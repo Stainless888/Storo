@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/minio/internal/config"
+	"github.com/Stainless888/Storo/internal/config"
 )
 
 // Tests validate bucket LocationConstraint.

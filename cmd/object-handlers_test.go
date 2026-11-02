@@ -41,10 +41,10 @@ import (
 	"testing"
 
 	"github.com/dustin/go-humanize"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	ioutilx "github.com/minio/minio/internal/ioutil"
+	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/Storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/Storo/internal/http"
+	ioutilx "github.com/Stainless888/Storo/internal/ioutil"
 )
 
 // Type to capture different modifications to API request to simulate failure cases.

@@ -1,4 +1,4 @@
-module github.com/minio/minio/docs/debugging/pprofgoparser
+module github.com/Stainless888/Storo/docs/debugging/pprofgoparser
 
 go 1.21
 

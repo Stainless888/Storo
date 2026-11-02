@@ -20,7 +20,7 @@ package cmd
 import (
 	"encoding/xml"
 
-	"github.com/minio/minio/internal/auth"
+	"github.com/Stainless888/Storo/internal/auth"
 )
 
 // AssumedRoleUser - The identifiers for the temporary security credentials that

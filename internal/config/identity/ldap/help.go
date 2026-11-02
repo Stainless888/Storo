@@ -17,7 +17,7 @@
 
 package ldap
 
-import "github.com/minio/minio/internal/config"
+import "github.com/Stainless888/Storo/internal/config"
 
 // Help template for LDAP identity feature.
 var (
