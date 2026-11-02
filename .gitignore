@@ -54,3 +54,6 @@ s3-verify
 xattr
 xl-meta
 /storo
+/dist/
+/.bin/
+/.verify-*/
