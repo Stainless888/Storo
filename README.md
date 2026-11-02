@@ -55,3 +55,5 @@ Build from source first (`go build -o storo`), then adapt `Dockerfile` and `dock
 - Source: [GNU AGPLv3](LICENSE) — original copyright by MinIO Inc. and contributors retained, modifications by Stainless888.
 - Docs: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [License Compliance](COMPLIANCE.md)
+
+*Storo: your own S3, your own rules.*
