@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 var printEndpointError = func() func(Endpoint, error, bool) {
@@ -116,7 +116,7 @@ func bgFormatErasureCleanupTmp(diskPath string) {
 // migration failed to capture '.This' field properly which indicates
 // the disk UUID association. Below error message is returned when
 // we see this situation in format.json, for more info refer
-// https://github.com/Stainless888/Storo/issues/5667
+// https://github.com/Stainless888/storo/issues/5667
 var errErasureV3ThisEmpty = fmt.Errorf("Erasure format version 3 has This field empty")
 
 // isServerResolvable - checks if the endpoint is resolvable

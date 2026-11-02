@@ -32,13 +32,13 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/lithammer/shortuuid/v4"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/bucket/versioning"
-	"github.com/Stainless888/Storo/internal/hash"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/bucket/versioning"
+	"github.com/Stainless888/storo/internal/hash"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/pkg/v3/workers"
 )
@@ -173,7 +173,7 @@ func (z *erasureServerPools) initRebalanceMeta(ctx context.Context, buckets []st
 	for _, disk := range si.Disks {
 		// Ignore invalid.
 		if disk.PoolIndex < 0 || len(diskStats) <= disk.PoolIndex {
-			// https://github.com/Stainless888/Storo/issues/16500
+			// https://github.com/Stainless888/storo/issues/16500
 			continue
 		}
 		totalCap += disk.TotalSpace

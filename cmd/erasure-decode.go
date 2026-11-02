@@ -25,7 +25,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 // Reads in parallel from readers.

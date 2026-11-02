@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 // localMetacacheMgr is the *local* manager for this peer.

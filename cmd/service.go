@@ -24,7 +24,7 @@ import (
 	"runtime"
 	"syscall"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 // Type of service signals currently supported.

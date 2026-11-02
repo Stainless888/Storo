@@ -33,14 +33,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/auth"
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/etag"
-	"github.com/Stainless888/Storo/internal/hash"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	xjwt "github.com/Stainless888/Storo/internal/jwt"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/mcontext"
+	"github.com/Stainless888/storo/internal/auth"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/etag"
+	"github.com/Stainless888/storo/internal/hash"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	xjwt "github.com/Stainless888/storo/internal/jwt"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/mcontext"
 	"github.com/minio/pkg/v3/policy"
 )
 

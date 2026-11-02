@@ -3,7 +3,7 @@
 package cmd
 
 import (
-	"github.com/Stainless888/Storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/bucket/replication"
 	"github.com/tinylib/msgp/msgp"
 )
 

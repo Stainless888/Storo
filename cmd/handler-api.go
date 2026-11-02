@@ -31,10 +31,10 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/shirou/gopsutil/v3/mem"
 
-	"github.com/Stainless888/Storo/internal/config/api"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/mcontext"
+	"github.com/Stainless888/storo/internal/config/api"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/mcontext"
 )
 
 type apiConfig struct {

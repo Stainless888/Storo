@@ -1,4 +1,4 @@
-module github.com/Stainless888/Storo/docs/debugging/inspect
+module github.com/Stainless888/storo/docs/debugging/inspect
 
 go 1.23.0
 

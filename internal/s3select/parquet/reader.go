@@ -24,9 +24,9 @@ import (
 
 	parquetgo "github.com/fraugster/parquet-go"
 	parquettypes "github.com/fraugster/parquet-go/parquet"
-	jsonfmt "github.com/Stainless888/Storo/internal/s3select/json"
-	"github.com/Stainless888/Storo/internal/s3select/jstream"
-	"github.com/Stainless888/Storo/internal/s3select/sql"
+	jsonfmt "github.com/Stainless888/storo/internal/s3select/json"
+	"github.com/Stainless888/storo/internal/s3select/jstream"
+	"github.com/Stainless888/storo/internal/s3select/sql"
 )
 
 // Reader implements reading records from parquet input.

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Stainless888/Storo/internal/lsync"
+	. "github.com/Stainless888/storo/internal/lsync"
 )
 
 func testSimpleWriteLock(t *testing.T, duration time.Duration) (locked bool) {

@@ -28,9 +28,9 @@ import (
 	"testing"
 
 	"github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
-	"github.com/Stainless888/Storo/internal/hash"
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/config/storageclass"
+	"github.com/Stainless888/storo/internal/hash"
+	"github.com/Stainless888/storo/internal/ioutil"
 )
 
 // Wrapper for calling NewMultipartUpload tests for both Erasure multiple disks and single node setup.

@@ -33,11 +33,11 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	types "github.com/Stainless888/Storo/internal/logger/target/loggertypes"
-	"github.com/Stainless888/Storo/internal/once"
-	"github.com/Stainless888/Storo/internal/store"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	types "github.com/Stainless888/storo/internal/logger/target/loggertypes"
+	"github.com/Stainless888/storo/internal/once"
+	"github.com/Stainless888/storo/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/valyala/bytebufferpool"
 )

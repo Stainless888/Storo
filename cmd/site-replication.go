@@ -42,10 +42,10 @@ import (
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/replication"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	sreplication "github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	sreplication "github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/logger"
 	xldap "github.com/minio/pkg/v3/ldap"
 	"github.com/minio/pkg/v3/policy"
 	"github.com/puzpuzpuz/xsync/v3"
@@ -2648,7 +2648,7 @@ func getPriorityHelper(replicationConfig replication.Config) int {
 	return maxPrio + 10
 }
 
-// returns a slice with site names participating in site replciation but unspecified while adding
+// returns a slice with site names participating in site replication but unspecified while adding
 // a new site.
 func getMissingSiteNames(oldDeps, newDeps set.StringSet, currSites []madmin.PeerInfo) []string {
 	diff := oldDeps.Difference(newDeps)

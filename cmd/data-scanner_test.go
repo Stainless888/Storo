@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/Stainless888/Storo/internal/amztime"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/bucket/versioning"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/amztime"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/bucket/versioning"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 func TestApplyNewerNoncurrentVersionsLimit(t *testing.T) {

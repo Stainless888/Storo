@@ -29,10 +29,10 @@ import (
 
 	"github.com/nsqio/go-nsq"
 
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/once"
-	"github.com/Stainless888/Storo/internal/store"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/once"
+	"github.com/Stainless888/storo/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

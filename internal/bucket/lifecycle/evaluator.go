@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	objlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
+	objlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/replication"
 )
 
 // Evaluator - evaluates lifecycle policy on objects for the given lifecycle

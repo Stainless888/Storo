@@ -16,7 +16,7 @@
 Requires [Go](https://golang.org/doc/install) 1.24+.
 
 ```sh
-go install github.com/Stainless888/Storo@latest
+go install github.com/Stainless888/storo@latest
 ```
 
 Or build a target platform manually:
@@ -42,7 +42,7 @@ mc mb data && mc ls data
 | | |
 |---|---|
 | Binary | `storo` |
-| Module | `github.com/Stainless888/Storo` |
+| Module | `github.com/Stainless888/storo` |
 | Default ports | API + Console on `:9000` |
 | S3 health check | `GET /minio/health/live` (kept for tooling compatibility) |
 

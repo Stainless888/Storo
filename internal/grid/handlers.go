@@ -24,9 +24,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/bpool"
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/tinylib/msgp/msgp"
 )
 

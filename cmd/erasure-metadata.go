@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/amztime"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/amztime"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/minio/pkg/v3/sync/errgroup"
 )
 

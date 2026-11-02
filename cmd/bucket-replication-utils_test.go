@@ -20,7 +20,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/bucket/replication"
 )
 
 var replicatedInfosTests = []struct {

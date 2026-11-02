@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/handlers"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/mcontext"
+	"github.com/Stainless888/storo/internal/handlers"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/mcontext"
 )
 
 var ldapPwdRegex = regexp.MustCompile("(^.*?)LDAPPassword=([^&]*?)(&(.*?))?$")
@@ -47,7 +47,7 @@ func redactLDAPPwd(s string) string {
 
 // getOpName sanitizes the operation name for mc
 func getOpName(name string) (op string) {
-	op = strings.TrimPrefix(name, "github.com/Stainless888/Storo/cmd.")
+	op = strings.TrimPrefix(name, "github.com/Stainless888/storo/cmd.")
 	op = strings.TrimSuffix(op, "Handler-fm")
 	op = strings.Replace(op, "objectAPIHandlers", "s3", 1)
 	op = strings.Replace(op, "adminAPIHandlers", "admin", 1)

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/cachevalue"
+	"github.com/Stainless888/storo/internal/cachevalue"
 )
 
 // metricsCache - cache for metrics.

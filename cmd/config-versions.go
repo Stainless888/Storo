@@ -18,15 +18,15 @@
 package cmd
 
 import (
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/config/compress"
-	xldap "github.com/Stainless888/Storo/internal/config/identity/ldap"
-	"github.com/Stainless888/Storo/internal/config/identity/openid"
-	"github.com/Stainless888/Storo/internal/config/notify"
-	"github.com/Stainless888/Storo/internal/config/policy/opa"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/config/compress"
+	xldap "github.com/Stainless888/storo/internal/config/identity/ldap"
+	"github.com/Stainless888/storo/internal/config/identity/openid"
+	"github.com/Stainless888/storo/internal/config/notify"
+	"github.com/Stainless888/storo/internal/config/policy/opa"
+	"github.com/Stainless888/storo/internal/config/storageclass"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/quick"
 )
 

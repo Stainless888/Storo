@@ -32,8 +32,8 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/Stainless888/Storo/internal/grid"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/grid"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 )
 

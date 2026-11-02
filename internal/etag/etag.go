@@ -117,8 +117,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/minio/sio"
 )
 

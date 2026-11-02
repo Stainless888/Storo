@@ -25,7 +25,7 @@ import (
 
 	"github.com/cheggaaa/pb"
 	humanize "github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/color"
+	"github.com/Stainless888/storo/internal/color"
 )
 
 // prepareUpdateMessage - prepares the update message, only if a

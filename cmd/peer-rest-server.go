@@ -38,12 +38,12 @@ import (
 	"github.com/klauspost/compress/zstd"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/Stainless888/Storo/internal/bucket/bandwidth"
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/grid"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/pubsub"
+	"github.com/Stainless888/storo/internal/bucket/bandwidth"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/grid"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/minio/mux"
 )
 

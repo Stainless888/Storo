@@ -31,11 +31,11 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/bucket/bandwidth"
-	"github.com/Stainless888/Storo/internal/grid"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/rest"
+	"github.com/Stainless888/storo/internal/bucket/bandwidth"
+	"github.com/Stainless888/storo/internal/grid"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/rest"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

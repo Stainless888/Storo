@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Stainless888/Storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/bpool"
 	"golang.org/x/sys/unix"
 )
 

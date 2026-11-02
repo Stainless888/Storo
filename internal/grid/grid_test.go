@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/logger/target/testlogger"
+	"github.com/Stainless888/storo/internal/logger/target/testlogger"
 )
 
 func TestSingleRoundtrip(t *testing.T) {

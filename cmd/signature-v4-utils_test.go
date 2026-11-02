@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/auth"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/auth"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 func TestCheckValid(t *testing.T) {

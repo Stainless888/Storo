@@ -25,8 +25,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/store"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/store"
 	"github.com/minio/pkg/v3/workers"
 )
 

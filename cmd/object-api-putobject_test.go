@@ -28,8 +28,8 @@ import (
 	"testing"
 
 	"github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/hash"
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/hash"
+	"github.com/Stainless888/storo/internal/ioutil"
 )
 
 func md5Header(data []byte) map[string]string {

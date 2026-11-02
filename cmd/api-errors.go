@@ -29,25 +29,25 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/ioutil"
 	"google.golang.org/api/googleapi"
 
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/config/dns"
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/kms"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/config/dns"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/kms"
+	"github.com/Stainless888/storo/internal/logger"
 
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/versioning"
-	levent "github.com/Stainless888/Storo/internal/config/lambda/event"
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/hash"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/versioning"
+	levent "github.com/Stainless888/storo/internal/config/lambda/event"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/hash"
 	"github.com/minio/pkg/v3/policy"
 )
 
@@ -281,7 +281,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/Stainless888/Storo/issues before adding
+	// Please open a https://github.com/Stainless888/storo/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

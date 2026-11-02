@@ -27,11 +27,11 @@ import (
 	"sync"
 
 	"github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/color"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/color"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/config/storageclass"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/sync/errgroup"
 )
 

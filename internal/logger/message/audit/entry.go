@@ -24,8 +24,8 @@ import (
 
 	"github.com/minio/madmin-go/v3/logger/audit"
 
-	"github.com/Stainless888/Storo/internal/handlers"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/handlers"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 // Version - represents the current version of audit log structure.

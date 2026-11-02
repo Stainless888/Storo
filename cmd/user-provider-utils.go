@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 )
 
 // getUserWithProvider - returns the appropriate internal username based on the user provider.

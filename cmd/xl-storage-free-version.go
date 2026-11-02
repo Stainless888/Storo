@@ -22,7 +22,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 )
 
 const freeVersion = "free-version"

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/color"
+	"github.com/Stainless888/storo/internal/color"
 )
 
 // Tests update notifier string builder.

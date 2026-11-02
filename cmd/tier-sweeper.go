@@ -20,7 +20,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 )
 
 // objSweeper determines if a transitioned object needs to be removed from the remote tier.

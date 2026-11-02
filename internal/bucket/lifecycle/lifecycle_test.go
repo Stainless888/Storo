@@ -30,8 +30,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/google/uuid"
-	"github.com/Stainless888/Storo/internal/bucket/object/lock"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/bucket/object/lock"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 func TestParseAndValidateLifecycleConfig(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/ioutil"
 )
 
 // Checker allows to verify the checksum of a reader.

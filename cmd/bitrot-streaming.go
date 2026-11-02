@@ -25,9 +25,9 @@ import (
 	"io"
 	"sync"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/ringbuffer"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/ringbuffer"
 )
 
 // Calculates bitrot in chunks and writes the hash into the stream.

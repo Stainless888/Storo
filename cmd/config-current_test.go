@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 func TestServerConfig(t *testing.T) {

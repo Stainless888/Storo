@@ -27,7 +27,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/bpool"
 	"github.com/tinylib/msgp/msgp"
 )
 

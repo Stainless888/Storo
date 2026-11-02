@@ -18,7 +18,7 @@
 package logger
 
 import (
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 // Help template for logger http and audit

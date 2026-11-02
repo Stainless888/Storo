@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/mcontext"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/mcontext"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/env"
 	"github.com/prometheus/client_golang/prometheus"

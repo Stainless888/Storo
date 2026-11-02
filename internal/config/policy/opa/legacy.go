@@ -18,7 +18,7 @@
 package opa
 
 import (
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 // Legacy OPA envs

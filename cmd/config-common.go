@@ -24,7 +24,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/hash"
+	"github.com/Stainless888/storo/internal/hash"
 )
 
 var errConfigNotFound = errors.New("config file not found")

@@ -18,7 +18,7 @@
 package ldap
 
 import (
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 // LegacyConfig contains AD/LDAP server connectivity information from old config

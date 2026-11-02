@@ -35,8 +35,8 @@ import (
 	"github.com/minio/highwayhash"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/Stainless888/Storo/internal/color"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/color"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 // HighwayHash key for logging in anonymous mode
@@ -145,7 +145,7 @@ func uniqueEntries(paths []string) []string {
 }
 
 // Init sets the trimStrings to possible GOPATHs
-// and GOROOT directories. Also append github.com/Stainless888/Storo
+// and GOROOT directories. Also append github.com/Stainless888/storo
 // This is done to clean up the filename, when stack trace is
 // displayed when an error happens.
 func Init(goPath string, goRoot string) {
@@ -189,9 +189,9 @@ func Init(goPath string, goRoot string) {
 	// Remove duplicate entries.
 	trimStrings = uniqueEntries(trimStrings)
 
-	// Add "github.com/Stainless888/Storo" as the last to cover
-	// paths like "{GOROOT}/src/github.com/Stainless888/Storo"
-	// and "{GOPATH}/src/github.com/Stainless888/Storo"
+	// Add "github.com/Stainless888/storo" as the last to cover
+	// paths like "{GOROOT}/src/github.com/Stainless888/storo"
+	// and "{GOPATH}/src/github.com/Stainless888/storo"
 	trimStrings = append(trimStrings, filepath.Join("github.com", "minio", "minio")+string(filepath.Separator))
 }
 

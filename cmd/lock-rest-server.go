@@ -21,9 +21,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/dsync"
-	"github.com/Stainless888/Storo/internal/grid"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/dsync"
+	"github.com/Stainless888/storo/internal/grid"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 // To abstract a node over network.

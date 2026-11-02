@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/dsync"
+	"github.com/Stainless888/storo/internal/dsync"
 )
 
 // Reject new lock requests immediately when this many are queued

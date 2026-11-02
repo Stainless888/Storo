@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/dsync"
+	"github.com/Stainless888/storo/internal/dsync"
 )
 
 // Helper function to create a lock server for testing

@@ -17,7 +17,7 @@
 
 package browser
 
-import "github.com/Stainless888/Storo/internal/config"
+import "github.com/Stainless888/storo/internal/config"
 
 // Help template for browser feature.
 var (

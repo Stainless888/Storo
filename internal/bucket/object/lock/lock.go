@@ -31,10 +31,10 @@ import (
 	"time"
 
 	"github.com/beevik/ntp"
-	"github.com/Stainless888/Storo/internal/amztime"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/amztime"
+	xhttp "github.com/Stainless888/storo/internal/http"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 )
 

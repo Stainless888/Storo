@@ -15,7 +15,7 @@ Build MinIO from source and install it in the chroot directory:
 
 ```sh
 # Build MinIO from source
-go install github.com/Stainless888/Storo@latest
+go install github.com/Stainless888/storo@latest
 
 # Create the bin directory in your chroot
 mkdir -p /mnt/export/${USER}/bin

@@ -25,7 +25,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/ioutil"
 )
 
 // Tests functions like Size(), MD5*(), SHA256*()

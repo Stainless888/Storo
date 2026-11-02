@@ -20,7 +20,7 @@ package cmd
 import (
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/config/ilm"
+	"github.com/Stainless888/storo/internal/config/ilm"
 )
 
 var globalILMConfig = ilmConfig{
