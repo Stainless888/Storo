@@ -34,7 +34,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	"github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/replication"
@@ -42,6 +41,7 @@ import (
 	"github.com/Stainless888/storo/internal/config/heal"
 	"github.com/Stainless888/storo/internal/event"
 	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/pkg/v3/console"
 	uatomic "go.uber.org/atomic"
 )

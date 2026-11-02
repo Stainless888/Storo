@@ -25,9 +25,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dustin/go-humanize"
 	"github.com/Stainless888/storo/internal/config"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/dustin/go-humanize"
 	"github.com/minio/pkg/v3/env"
 )
 

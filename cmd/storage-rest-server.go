@@ -38,13 +38,13 @@ import (
 	"github.com/Stainless888/storo/internal/grid"
 	"github.com/tinylib/msgp/msgp"
 
-	jwtreq "github.com/golang-jwt/jwt/v4/request"
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/config"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	xjwt "github.com/Stainless888/storo/internal/jwt"
 	"github.com/Stainless888/storo/internal/logger"
+	jwtreq "github.com/golang-jwt/jwt/v4/request"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/mux"
 	xnet "github.com/minio/pkg/v3/net"
 )

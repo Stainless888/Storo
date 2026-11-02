@@ -33,13 +33,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	jsoniter "github.com/json-iterator/go"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	"github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/versioning"
 	"github.com/Stainless888/storo/internal/color"
 	"github.com/Stainless888/storo/internal/hash"
 	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	jsoniter "github.com/json-iterator/go"
 	"github.com/minio/pkg/v3/console"
 )
 

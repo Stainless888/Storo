@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/klauspost/compress/zip"
 	"github.com/Stainless888/storo/internal/s3select/sql"
+	"github.com/klauspost/compress/zip"
 )
 
 func TestRead(t *testing.T) {

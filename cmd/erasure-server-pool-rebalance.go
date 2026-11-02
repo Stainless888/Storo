@@ -29,9 +29,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dustin/go-humanize"
-	"github.com/lithammer/shortuuid/v4"
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/replication"
@@ -39,6 +36,9 @@ import (
 	"github.com/Stainless888/storo/internal/hash"
 	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/dustin/go-humanize"
+	"github.com/lithammer/shortuuid/v4"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/pkg/v3/workers"
 )

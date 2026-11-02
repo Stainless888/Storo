@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Stainless888/storo/internal/config/storageclass"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/storo/internal/config/storageclass"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

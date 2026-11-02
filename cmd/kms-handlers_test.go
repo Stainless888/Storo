@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/kms"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/pkg/v3/policy"
 )
 

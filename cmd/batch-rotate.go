@@ -29,11 +29,11 @@ import (
 	"strings"
 	"time"
 
-	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/Stainless888/storo/internal/crypto"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/kms"
+	jsoniter "github.com/json-iterator/go"
+	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/pkg/v3/workers"
 )

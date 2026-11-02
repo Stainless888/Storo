@@ -32,9 +32,6 @@ import (
 	"github.com/Stainless888/storo/internal/ioutil"
 	"google.golang.org/api/googleapi"
 
-	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/Stainless888/storo/internal/auth"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	"github.com/Stainless888/storo/internal/bucket/replication"
@@ -42,6 +39,9 @@ import (
 	"github.com/Stainless888/storo/internal/crypto"
 	"github.com/Stainless888/storo/internal/kms"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
+	"github.com/minio/minio-go/v7"
+	"github.com/minio/minio-go/v7/pkg/tags"
 
 	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/versioning"

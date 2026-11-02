@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/handlers"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/mcontext"
+	"github.com/minio/madmin-go/v3"
 )
 
 var ldapPwdRegex = regexp.MustCompile("(^.*?)LDAPPassword=([^&]*?)(&(.*?))?$")

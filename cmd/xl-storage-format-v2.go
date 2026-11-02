@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cespare/xxhash/v2"
-	"github.com/google/uuid"
-	jsoniter "github.com/json-iterator/go"
 	"github.com/Stainless888/storo/internal/bpool"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	"github.com/Stainless888/storo/internal/bucket/replication"
 	"github.com/Stainless888/storo/internal/config/storageclass"
 	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/cespare/xxhash/v2"
+	"github.com/google/uuid"
+	jsoniter "github.com/json-iterator/go"
 	"github.com/tinylib/msgp/msgp"
 )
 

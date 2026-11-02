@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/color"
 	"github.com/cheggaaa/pb"
 	humanize "github.com/dustin/go-humanize"
-	"github.com/Stainless888/storo/internal/color"
 )
 
 // prepareUpdateMessage - prepares the update message, only if a

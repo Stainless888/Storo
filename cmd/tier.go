@@ -32,10 +32,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/crypto"
 	"github.com/Stainless888/storo/internal/hash"
 	"github.com/Stainless888/storo/internal/kms"
+	"github.com/minio/madmin-go/v3"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

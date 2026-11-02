@@ -31,9 +31,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/uuid"
-	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/Stainless888/storo/internal/amztime"
 	sse "github.com/Stainless888/storo/internal/bucket/encryption"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
@@ -41,6 +38,9 @@ import (
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/logger"
 	"github.com/Stainless888/storo/internal/s3select"
+	"github.com/google/uuid"
+	"github.com/minio/madmin-go/v3"
+	"github.com/minio/minio-go/v7/pkg/tags"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/zeebo/xxh3"
 )

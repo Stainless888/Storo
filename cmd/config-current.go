@@ -27,7 +27,6 @@ import (
 
 	"github.com/Stainless888/storo/internal/config/browser"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/config"
 	"github.com/Stainless888/storo/internal/config/api"
 	"github.com/Stainless888/storo/internal/config/batch"
@@ -52,6 +51,7 @@ import (
 	"github.com/Stainless888/storo/internal/crypto"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/pkg/v3/env"
 )
 

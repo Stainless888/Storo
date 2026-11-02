@@ -32,10 +32,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/klauspost/compress/s2"
 	"github.com/Stainless888/storo/internal/auth"
 	"github.com/Stainless888/storo/internal/config/compress"
 	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/klauspost/compress/s2"
 	"github.com/minio/pkg/v3/trie"
 )
 

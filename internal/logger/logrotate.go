@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"time"
 
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/klauspost/compress/gzip"
 	"github.com/minio/madmin-go/v3/logger/log"
-	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 func defaultFilenameFunc() string {

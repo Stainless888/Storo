@@ -26,7 +26,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/config"
 	"github.com/Stainless888/storo/internal/config/etcd"
 	xldap "github.com/Stainless888/storo/internal/config/identity/ldap"
@@ -36,6 +35,7 @@ import (
 	"github.com/Stainless888/storo/internal/config/storageclass"
 	"github.com/Stainless888/storo/internal/config/subnet"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

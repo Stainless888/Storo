@@ -31,8 +31,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/dustin/go-humanize"
 	"github.com/Stainless888/storo/internal/config/storageclass"
+	"github.com/dustin/go-humanize"
 )
 
 func TestRepeatPutObjectPart(t *testing.T) {

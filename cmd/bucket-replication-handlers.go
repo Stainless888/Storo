@@ -28,11 +28,11 @@ import (
 	"path"
 	"time"
 
-	"github.com/minio/minio-go/v7"
 	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/replication"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/minio-go/v7"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

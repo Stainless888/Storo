@@ -33,11 +33,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/google/uuid"
 	"github.com/klauspost/compress/zip"
 	"github.com/klauspost/compress/zstd"
-	"github.com/Stainless888/storo/internal/bucket/lifecycle"
-	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 func TestReadXLMetaNoData(t *testing.T) {

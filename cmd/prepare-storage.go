@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dustin/go-humanize"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/dustin/go-humanize"
 )
 
 var printEndpointError = func() func(Endpoint, error, bool) {

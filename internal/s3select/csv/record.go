@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	csv "github.com/minio/csvparser"
 	"github.com/Stainless888/storo/internal/s3select/jstream"
 	"github.com/Stainless888/storo/internal/s3select/sql"
+	csv "github.com/minio/csvparser"
 )
 
 // Record - is a CSV record.

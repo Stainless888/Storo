@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/auth"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
 	xldap "github.com/minio/pkg/v3/ldap"
 	xsftp "github.com/minio/pkg/v3/sftp"
 	"github.com/pkg/sftp"

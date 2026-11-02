@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/google/uuid"
 )
 
 func (x xlMetaV2) listFreeVersions(volume, path string) ([]FileInfo, error) {

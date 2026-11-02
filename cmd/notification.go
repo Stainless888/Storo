@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/cespare/xxhash/v2"
 	"github.com/klauspost/compress/zip"
 	"github.com/minio/madmin-go/v3"
-	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/minio/pkg/v3/sync/errgroup"
 	"github.com/minio/pkg/v3/workers"

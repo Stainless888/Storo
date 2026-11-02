@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/Stainless888/storo/internal/bucket/object/lock"
 	"github.com/Stainless888/storo/internal/bucket/replication"
 	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/google/uuid"
 )
 
 var (

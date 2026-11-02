@@ -44,10 +44,6 @@ import (
 	"github.com/minio/mux"
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/Stainless888/storo/internal/auth"
 	sse "github.com/Stainless888/storo/internal/bucket/encryption"
 	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
@@ -62,6 +58,10 @@ import (
 	"github.com/Stainless888/storo/internal/ioutil"
 	"github.com/Stainless888/storo/internal/kms"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
+	"github.com/minio/minio-go/v7"
+	"github.com/minio/minio-go/v7/pkg/set"
+	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/minio/pkg/v3/policy"
 	"github.com/minio/pkg/v3/sync/errgroup"
 )

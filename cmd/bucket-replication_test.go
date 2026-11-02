@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/bucket/replication"
 	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/minio/madmin-go/v3"
 )
 
 var configs = []replication.Config{

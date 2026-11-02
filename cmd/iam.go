@@ -33,8 +33,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/Stainless888/storo/internal/arn"
 	"github.com/Stainless888/storo/internal/auth"
 	"github.com/Stainless888/storo/internal/color"
@@ -48,6 +46,8 @@ import (
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/jwt"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
+	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/pkg/v3/ldap"
 	"github.com/minio/pkg/v3/policy"

@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/Stainless888/storo/internal/crypto"
 	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/minio/minio-go/v7/pkg/tags"
 	xxml "github.com/minio/xxml"
 )
 

@@ -29,10 +29,10 @@ import (
 	"time"
 	"unicode"
 
+	"github.com/Stainless888/storo/internal/grid"
 	"github.com/dustin/go-humanize"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/Stainless888/storo/internal/grid"
 	xnet "github.com/minio/pkg/v3/net"
 
 	"github.com/Stainless888/storo/internal/amztime"

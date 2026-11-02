@@ -29,8 +29,6 @@ import (
 	"path"
 	"time"
 
-	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio-go/v7/pkg/tags"
 	bucketsse "github.com/Stainless888/storo/internal/bucket/encryption"
 	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
@@ -40,6 +38,8 @@ import (
 	"github.com/Stainless888/storo/internal/event"
 	"github.com/Stainless888/storo/internal/kms"
 	"github.com/Stainless888/storo/internal/logger"
+	"github.com/minio/madmin-go/v3"
+	"github.com/minio/minio-go/v7/pkg/tags"
 	"github.com/minio/pkg/v3/policy"
 	"github.com/minio/sio"
 )

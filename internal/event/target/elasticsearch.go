@@ -31,13 +31,13 @@ import (
 	"strings"
 	"time"
 
-	elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
-	"github.com/minio/highwayhash"
 	"github.com/Stainless888/storo/internal/event"
 	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/Stainless888/storo/internal/logger"
 	"github.com/Stainless888/storo/internal/once"
 	"github.com/Stainless888/storo/internal/store"
+	elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
+	"github.com/minio/highwayhash"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/pkg/errors"
 )

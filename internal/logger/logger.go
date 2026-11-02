@@ -32,11 +32,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/color"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/minio/highwayhash"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/Stainless888/storo/internal/color"
-	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 // HighwayHash key for logging in anonymous mode

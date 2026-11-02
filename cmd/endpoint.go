@@ -32,11 +32,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dustin/go-humanize"
-	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/Stainless888/storo/internal/config"
 	"github.com/Stainless888/storo/internal/logger"
 	"github.com/Stainless888/storo/internal/mountinfo"
+	"github.com/dustin/go-humanize"
+	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
 )

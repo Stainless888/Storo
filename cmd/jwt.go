@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	jwtgo "github.com/golang-jwt/jwt/v4"
-	jwtreq "github.com/golang-jwt/jwt/v4/request"
 	"github.com/Stainless888/storo/internal/auth"
 	xjwt "github.com/Stainless888/storo/internal/jwt"
+	jwtgo "github.com/golang-jwt/jwt/v4"
+	jwtreq "github.com/golang-jwt/jwt/v4/request"
 	"github.com/minio/pkg/v3/policy"
 )
 

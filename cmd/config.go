@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/config"
 	"github.com/Stainless888/storo/internal/kms"
+	jsoniter "github.com/json-iterator/go"
+	"github.com/minio/madmin-go/v3"
 )
 
 const (

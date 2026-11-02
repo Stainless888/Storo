@@ -28,12 +28,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/deadlineconn"
+	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
 	"github.com/google/uuid"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/storo/internal/deadlineconn"
-	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/minio/mux"
 )
 

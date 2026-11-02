@@ -24,10 +24,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dustin/go-humanize"
-	"github.com/minio/madmin-go/v3"
 	"github.com/Stainless888/storo/internal/bucket/replication"
 	"github.com/Stainless888/storo/internal/hash"
+	"github.com/dustin/go-humanize"
+	"github.com/minio/madmin-go/v3"
 )
 
 //go:generate msgp -file $GOFILE -io=false -tests=false -unexported=false
