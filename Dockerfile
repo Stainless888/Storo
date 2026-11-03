@@ -1,18 +1,20 @@
-FROM minio/minio:latest
+FROM alpine:3.22
 
-ARG TARGETARCH
-ARG RELEASE
+RUN apk add --no-cache ca-certificates && \
+    adduser -D -u 1000 -h /data storo
 
-RUN chmod -R 777 /usr/bin
-
-COPY ./minio-${TARGETARCH}.${RELEASE} /usr/bin/minio
-COPY ./minio-${TARGETARCH}.${RELEASE}.minisig /usr/bin/minio.minisig
-COPY ./minio-${TARGETARCH}.${RELEASE}.sha256sum /usr/bin/minio.sha256sum
-
+COPY storo /usr/bin/storo
 COPY dockerscripts/docker-entrypoint.sh /usr/bin/docker-entrypoint.sh
+
+RUN chmod +x /usr/bin/docker-entrypoint.sh && mkdir -p /data && chown storo /data
+
+USER storo
+WORKDIR /data
+
+EXPOSE 9000 9001
 
 ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 VOLUME ["/data"]
 
-CMD ["minio"]
+CMD ["server", "/data"]
