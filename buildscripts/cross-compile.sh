@@ -9,7 +9,11 @@ function _init() {
 	export CGO_ENABLED=0
 
 	## List of architectures and OS to test coss compilation.
-	SUPPORTED_OSARCH="linux/ppc64le linux/mips64 linux/amd64 linux/arm64 linux/s390x darwin/arm64 darwin/amd64 freebsd/amd64 windows/amd64 linux/arm linux/386 netbsd/amd64 linux/mips openbsd/amd64 linux/riscv64"
+	## ponytail: netbsd/amd64 dropped 2026-11-03 — go-systemd v22.7.0 (required by
+	## prometheus) needs unix.CLOCK_MONOTONIC which x/sys does not define for NetBSD,
+	## and go-systemd has no netbsd support upstream. No NetBSD releases are shipped.
+	## Upgrade path: stub sdnotify for netbsd or patch x/sys, then re-add the target.
+	SUPPORTED_OSARCH="linux/ppc64le linux/mips64 linux/amd64 linux/arm64 linux/s390x darwin/arm64 darwin/amd64 freebsd/amd64 windows/amd64 linux/arm linux/386 linux/mips openbsd/amd64 linux/riscv64"
 }
 
 function _build() {
