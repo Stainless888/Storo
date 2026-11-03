@@ -56,4 +56,3 @@ Build from source first (`go build -o storo`), then adapt `Dockerfile` and `dock
 - Docs: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [License Compliance](COMPLIANCE.md)
 
-*Storo: your own S3, your own rules.*
