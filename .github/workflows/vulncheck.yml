@@ -13,7 +13,6 @@ permissions:
 
 jobs:
   vulncheck:
-    continue-on-error: true
     name: Analysis
     runs-on: ubuntu-latest
     steps:
