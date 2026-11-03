@@ -22,8 +22,8 @@ import (
 	"io"
 	"net/http"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

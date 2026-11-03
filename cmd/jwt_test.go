@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
+	xjwt "github.com/Stainless888/storo/internal/jwt"
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	xjwt "github.com/Stainless888/Storo/internal/jwt"
 )
 
 func getTokenString(accessKey, secretKey string) (string, error) {

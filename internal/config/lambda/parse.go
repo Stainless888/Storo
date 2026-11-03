@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/config/lambda/event"
-	"github.com/Stainless888/Storo/internal/config/lambda/target"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/config/lambda/event"
+	"github.com/Stainless888/storo/internal/config/lambda/target"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
 )

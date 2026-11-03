@@ -7,16 +7,16 @@ set -x
 WORK_DIR="$PWD/.verify-$RANDOM"
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
 MINIO_OLD=("$PWD/minio.RELEASE.2020-10-28T08-16-50Z" --config-dir "$MINIO_CONFIG_DIR" server)
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR" server)
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR" server)
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
 
 function download_old_release() {
 	if [ ! -f minio.RELEASE.2020-10-28T08-16-50Z ]; then
-		curl --silent -O https://dl.minio.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2020-10-28T08-16-50Z
+		curl --silent -O https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2020-10-28T08-16-50Z
 		chmod a+x minio.RELEASE.2020-10-28T08-16-50Z
 	fi
 }
@@ -31,7 +31,7 @@ function verify_rewrite() {
 	export MINIO_CI_CD=1
 
 	MC_BUILD_DIR="mc-$RANDOM"
-	if ! git clone --quiet https://github.com/minio/mc "$MC_BUILD_DIR"; then
+	if ! git clone --quiet --branch RELEASE.2025-08-13T08-35-41Z --depth 1 https://github.com/minio/mc "$MC_BUILD_DIR"; then
 		echo "failed to download https://github.com/minio/mc"
 		purge "${MC_BUILD_DIR}"
 		exit 1

@@ -31,9 +31,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/arn"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/arn"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
 )

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 	"github.com/minio/pkg/v3/policy"
 )
 

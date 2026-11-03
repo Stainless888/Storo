@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

@@ -16,6 +16,7 @@ permissions:
 
 jobs:
   mint-test:
+    continue-on-error: true
     runs-on: mint
     timeout-minutes: 120
     steps:

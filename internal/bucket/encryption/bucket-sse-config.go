@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/crypto"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/crypto"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 const (

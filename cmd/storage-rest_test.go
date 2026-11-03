@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/grid"
+	"github.com/Stainless888/storo/internal/grid"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

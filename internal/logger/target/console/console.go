@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Stainless888/storo/internal/color"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/Stainless888/Storo/internal/color"
-	"github.com/Stainless888/Storo/internal/logger"
 )
 
 // Target implements loggerTarget to send log

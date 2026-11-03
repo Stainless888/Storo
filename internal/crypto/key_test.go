@@ -24,7 +24,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 var shortRandom = func(limit int64) io.Reader { return io.LimitReader(rand.Reader, limit) }

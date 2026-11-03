@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"sync"
 
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/cespare/xxhash/v2"
 	"github.com/klauspost/reedsolomon"
-	"github.com/Stainless888/Storo/internal/logger"
 )
 
 // Erasure - erasure encoding details.

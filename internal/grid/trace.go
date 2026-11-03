@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/pubsub"
 )
 
 // TraceParamsKey allows to pass trace parameters to the request via context.

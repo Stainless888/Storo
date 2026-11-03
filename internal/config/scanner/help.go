@@ -17,7 +17,7 @@
 
 package scanner
 
-import "github.com/Stainless888/Storo/internal/config"
+import "github.com/Stainless888/storo/internal/config"
 
 var (
 	defaultHelpPostfix = func(key string) string {

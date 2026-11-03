@@ -24,8 +24,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/sio"
 )
 
@@ -37,7 +37,7 @@ const (
 	// InsecureSealAlgorithm is the legacy encryption/sealing algorithm used
 	// to derive & seal the key-encryption-key and to en/decrypt the object data.
 	// This algorithm should not be used for new objects because its key derivation
-	// is not optimal. See: https://github.com/Stainless888/Storo/pull/6121
+	// is not optimal. See: https://github.com/Stainless888/storo/pull/6121
 	InsecureSealAlgorithm = "DARE-SHA256"
 )
 

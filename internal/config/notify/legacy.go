@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/event/target"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/event/target"
 )
 
 // SetNotifyKafka - helper for config migration from older config.

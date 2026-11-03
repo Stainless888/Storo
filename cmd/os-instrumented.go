@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Stainless888/storo/internal/disk"
+	ioutilx "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/disk"
-	ioutilx "github.com/Stainless888/Storo/internal/ioutil"
 )
 
 //go:generate stringer -type=osMetric -trimprefix=osMetric $GOFILE

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/hash"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/hash"
 )
 
 var toAPIErrorTests = []struct {

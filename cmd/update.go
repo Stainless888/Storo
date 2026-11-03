@@ -35,9 +35,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/klauspost/compress/zstd"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/minio/selfupdate"
@@ -229,7 +229,7 @@ func IsPCFTile() bool {
 //	MinIO (<OS>; <ARCH>[; <MODE>][; dcos][; kubernetes][; docker][; source]) MinIO/<VERSION> MinIO/<RELEASE-TAG> MinIO/<COMMIT-ID> [MinIO/universe-<PACKAGE-NAME>] [MinIO/helm-<HELM-VERSION>]
 //
 // Any change here should be discussed by opening an issue at
-// https://github.com/Stainless888/Storo/issues.
+// https://github.com/Stainless888/storo/issues.
 func getUserAgent(mode string) string {
 	userAgentParts := []string{}
 	// Helper function to concisely append a pair of strings to a

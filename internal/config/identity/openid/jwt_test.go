@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Stainless888/storo/internal/arn"
+	"github.com/Stainless888/storo/internal/config"
+	jwtm "github.com/Stainless888/storo/internal/jwt"
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	"github.com/Stainless888/Storo/internal/arn"
-	"github.com/Stainless888/Storo/internal/config"
-	jwtm "github.com/Stainless888/Storo/internal/jwt"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

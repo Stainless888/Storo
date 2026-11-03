@@ -34,10 +34,10 @@ import (
 	"github.com/IBM/sarama"
 	saramatls "github.com/IBM/sarama/tools/tls"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	types "github.com/Stainless888/Storo/internal/logger/target/loggertypes"
-	"github.com/Stainless888/Storo/internal/once"
-	"github.com/Stainless888/Storo/internal/store"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	types "github.com/Stainless888/storo/internal/logger/target/loggertypes"
+	"github.com/Stainless888/storo/internal/once"
+	"github.com/Stainless888/storo/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

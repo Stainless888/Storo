@@ -27,7 +27,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 	"github.com/minio/pkg/v3/env"
 )
 

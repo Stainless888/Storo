@@ -21,7 +21,7 @@ import (
 	"errors"
 	"io"
 
-	sse "github.com/Stainless888/Storo/internal/bucket/encryption"
+	sse "github.com/Stainless888/storo/internal/bucket/encryption"
 )
 
 // BucketSSEConfigSys - in-memory cache of bucket encryption config

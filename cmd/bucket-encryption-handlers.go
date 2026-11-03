@@ -25,10 +25,10 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/Stainless888/storo/internal/kms"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/kms-go/kes"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/kms"
-	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

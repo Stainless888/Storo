@@ -18,7 +18,7 @@
 package storageclass
 
 import (
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 // SetStorageClass - One time migration code needed, for migrating from older config to new for StorageClass.

@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 )
 
 // Wrapper for calling RemoveBucket HTTP handler tests for both Erasure multiple disks and single node setup.

@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/minio/pkg/v3/console"
 )
 

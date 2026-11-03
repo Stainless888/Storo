@@ -6,14 +6,14 @@ set -x
 
 WORK_DIR="$PWD/.verify-$RANDOM"
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR" server)
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR" server)
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
@@ -31,7 +31,7 @@ function start_minio_4drive() {
 	C_PWD=${PWD}
 	if [ ! -x "$PWD/mc" ]; then
 		MC_BUILD_DIR="mc-$RANDOM"
-		if ! git clone --quiet https://github.com/minio/mc "$MC_BUILD_DIR"; then
+		if ! git clone --quiet --branch RELEASE.2025-08-13T08-35-41Z --depth 1 https://github.com/minio/mc "$MC_BUILD_DIR"; then
 			echo "failed to download https://github.com/minio/mc"
 			purge "${MC_BUILD_DIR}"
 			exit 1

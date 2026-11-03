@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/crypto"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/crypto"
 	"github.com/minio/pkg/v3/ldap"
 )
 

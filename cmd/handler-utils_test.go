@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/config"
+	"github.com/Stainless888/storo/internal/config"
 )
 
 // Tests validate bucket LocationConstraint.

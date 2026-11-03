@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/s3select/sql"
+	"github.com/Stainless888/storo/internal/s3select/sql"
 )
 
 func TestNewReader(t *testing.T) {

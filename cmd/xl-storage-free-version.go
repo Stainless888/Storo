@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 	"github.com/google/uuid"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
 )
 
 const freeVersion = "free-version"

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/store"
+	"github.com/Stainless888/storo/internal/store"
 )
 
 type ExampleTarget struct {

@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/grid"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/grid"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 func renameAllBucketMetacache(epPath string) error {

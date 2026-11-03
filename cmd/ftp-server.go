@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 	ftp "goftp.io/server/v2"
 )
 

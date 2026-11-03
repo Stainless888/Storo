@@ -23,7 +23,7 @@ help: ## print this help
 
 getdeps: ## fetch necessary dependencies
 	@mkdir -p ${GOPATH}/bin
-	@echo "Installing golangci-lint" && curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(GOLANGCI_DIR)
+	@echo "Installing golangci-lint" && go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.1.6 && mkdir -p $(GOLANGCI_DIR) && cp "$(shell go env GOPATH)/bin/golangci-lint" $(GOLANGCI)
 
 crosscompile: ## cross compile minio
 	@(env bash $(PWD)/buildscripts/cross-compile.sh)
@@ -220,14 +220,14 @@ test-resiliency: build
 	@(DOCKER_COMPOSE_FILE=$(PWD)/docs/resiliency/docker-compose.yaml env bash $(PWD)/docs/resiliency/resiliency-tests.sh)
 
 install-race: checks build-debugging ## builds minio to $(PWD)
-	@echo "Building minio binary with -race to './minio'"
+	@echo "Building storo binary with -race to './storo'"
 	@GORACE=history_size=7 CGO_ENABLED=1 go build -tags kqueue,dev -race -trimpath --ldflags "$(LDFLAGS)" -o $(PWD)/storo 1>/dev/null
 	@echo "Installing minio binary with -race to '$(GOPATH)/bin/minio'"
-	@mkdir -p $(GOPATH)/bin && cp -af $(PWD)/minio $(GOPATH)/bin/minio
+	@mkdir -p $(GOPATH)/bin && cp -af $(PWD)/storo $(GOPATH)/bin/minio
 
 install: build ## builds minio and installs it to $GOPATH/bin.
 	@echo "Installing minio binary to '$(GOPATH)/bin/minio'"
-	@mkdir -p $(GOPATH)/bin && cp -af $(PWD)/minio $(GOPATH)/bin/minio
+	@mkdir -p $(GOPATH)/bin && cp -af $(PWD)/storo $(GOPATH)/bin/minio
 	@echo "Installation successful. To learn more, try \"minio --help\"."
 
 clean: ## cleanup all generated assets

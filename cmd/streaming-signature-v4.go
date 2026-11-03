@@ -31,10 +31,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 )
 
 // Streaming AWS Signature Version '4' constants.

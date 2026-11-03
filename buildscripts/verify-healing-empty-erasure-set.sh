@@ -4,14 +4,14 @@
 set -E
 set -o pipefail
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
 
 WORK_DIR="$PWD/.verify-$RANDOM"
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR" server)
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR" server)
 
 function start_minio_3_node() {
 	export MINIO_ROOT_USER=minio
@@ -119,7 +119,7 @@ function __init__() {
 	echo '{"version": "3", "credential": {"accessKey": "minio", "secretKey": "minio123"}, "region": "us-east-1"}' >"$MINIO_CONFIG_DIR/config.json"
 
 	if [ ! -f /tmp/mc ]; then
-		wget --quiet -O /tmp/mc https://dl.minio.io/client/mc/release/linux-amd64/mc &&
+		wget --quiet -O /tmp/mc https://dl.min.io/client/mc/release/linux-amd64/mc &&
 			chmod +x /tmp/mc
 	fi
 }

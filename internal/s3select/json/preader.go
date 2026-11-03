@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/bpool"
-	"github.com/Stainless888/Storo/internal/s3select/jstream"
-	"github.com/Stainless888/Storo/internal/s3select/sql"
+	"github.com/Stainless888/storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/s3select/jstream"
+	"github.com/Stainless888/storo/internal/s3select/sql"
 )
 
 // PReader - JSON record reader for S3Select.

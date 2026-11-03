@@ -24,8 +24,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/grid"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/grid"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/valyala/bytebufferpool"
 )
 

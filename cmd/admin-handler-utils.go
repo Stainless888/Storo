@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/config"
 	"github.com/minio/kms-go/kes"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/config"
 	"github.com/minio/pkg/v3/policy"
 )
 

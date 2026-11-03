@@ -34,9 +34,9 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/Stainless888/storo/internal/logger"
+	types "github.com/Stainless888/storo/internal/logger/target/loggertypes"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/Stainless888/Storo/internal/logger"
-	types "github.com/Stainless888/Storo/internal/logger/target/loggertypes"
 )
 
 const (

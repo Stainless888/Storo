@@ -5,7 +5,7 @@ set -e
 set -E
 set -o pipefail
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
@@ -26,7 +26,7 @@ export ENABLE_ADMIN=1
 export MINIO_CI_CD=1
 
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR")
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR")
 
 FILE_1_MB="$MINT_DATA_DIR/datafile-1-MB"
 FILE_65_MB="$MINT_DATA_DIR/datafile-65-MB"
@@ -220,7 +220,7 @@ function __init__() {
 	mkdir -p "$MINT_DATA_DIR"
 
 	MC_BUILD_DIR="mc-$RANDOM"
-	if ! git clone --quiet https://github.com/minio/mc "$MC_BUILD_DIR"; then
+	if ! git clone --quiet --branch RELEASE.2025-08-13T08-35-41Z --depth 1 https://github.com/minio/mc "$MC_BUILD_DIR"; then
 		echo "failed to download https://github.com/minio/mc"
 		purge "${MC_BUILD_DIR}"
 		exit 1
@@ -237,8 +237,8 @@ function __init__() {
 	## version is purposefully set to '3' for minio to migrate configuration file
 	echo '{"version": "3", "credential": {"accessKey": "minio", "secretKey": "minio123"}, "region": "us-east-1"}' >"$MINIO_CONFIG_DIR/config.json"
 
-	if ! wget -q -O "$FUNCTIONAL_TESTS" https://raw.githubusercontent.com/minio/mc/master/functional-tests.sh; then
-		echo "failed to download https://raw.githubusercontent.com/minio/mc/master/functional-tests.sh"
+	if ! wget -q -O "$FUNCTIONAL_TESTS" https://raw.githubusercontent.com/minio/mc/RELEASE.2025-08-13T08-35-41Z/functional-tests.sh; then
+		echo "failed to download https://raw.githubusercontent.com/minio/mc/RELEASE.2025-08-13T08-35-41Z/functional-tests.sh"
 		exit 1
 	fi
 

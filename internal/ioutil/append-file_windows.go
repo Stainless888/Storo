@@ -21,7 +21,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/Stainless888/Storo/internal/lock"
+	"github.com/Stainless888/storo/internal/lock"
 )
 
 // AppendFile - appends the file "src" to the file "dst"

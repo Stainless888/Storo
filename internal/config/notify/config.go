@@ -18,7 +18,7 @@
 package notify
 
 import (
-	"github.com/Stainless888/Storo/internal/event/target"
+	"github.com/Stainless888/storo/internal/event/target"
 )
 
 // Config - notification target configuration structure, holds

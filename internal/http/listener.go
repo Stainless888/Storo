@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/deadlineconn"
+	"github.com/Stainless888/storo/internal/deadlineconn"
 )
 
 type acceptResult struct {

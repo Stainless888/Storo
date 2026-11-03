@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Stainless888/storo/internal/dsync"
 	"github.com/google/uuid"
-	"github.com/Stainless888/Storo/internal/dsync"
 )
 
 func TestLocalLockerExpire(t *testing.T) {

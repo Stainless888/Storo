@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/event"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/pubsub"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/event"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/minio/pkg/v3/policy"
 )
 

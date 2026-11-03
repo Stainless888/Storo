@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/crypto"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
 	clientv3 "go.etcd.io/etcd/client/v3"

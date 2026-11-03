@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 // TestGetAndValidateAttributesOpts is currently minimal and covers a subset of getAndValidateAttributesOpts(),

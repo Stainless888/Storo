@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/bucket/replication"
 	"github.com/rcrowley/go-metrics"
 )
 

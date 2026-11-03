@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/coreos/go-systemd/v22/daemon"
-	"github.com/Stainless888/Storo/internal/logger"
 )
 
 func shutdownHealMRFWithTimeout() {

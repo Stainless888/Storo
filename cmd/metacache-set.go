@@ -33,13 +33,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/versioning"
+	"github.com/Stainless888/storo/internal/color"
+	"github.com/Stainless888/storo/internal/hash"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	"github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/versioning"
-	"github.com/Stainless888/Storo/internal/color"
-	"github.com/Stainless888/Storo/internal/hash"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
 	"github.com/minio/pkg/v3/console"
 )
 

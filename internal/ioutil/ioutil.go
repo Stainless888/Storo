@@ -27,9 +27,9 @@ import (
 	"runtime/debug"
 	"time"
 
+	"github.com/Stainless888/storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/disk"
 	"github.com/dustin/go-humanize"
-	"github.com/Stainless888/Storo/internal/bpool"
-	"github.com/Stainless888/Storo/internal/disk"
 )
 
 // Block sizes constant.

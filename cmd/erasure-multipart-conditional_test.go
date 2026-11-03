@@ -22,15 +22,15 @@ import (
 	"context"
 	"testing"
 
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/dustin/go-humanize"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 )
 
 // TestNewMultipartUploadConditionalWithReadQuorumFailure tests that conditional
 // multipart uploads (with if-match/if-none-match) behave correctly when read quorum
 // cannot be reached.
 //
-// Related to: https://github.com/Stainless888/Storo/issues/21603
+// Related to: https://github.com/Stainless888/storo/issues/21603
 //
 // Should return an error when read quorum cannot
 // be reached, as we cannot reliably determine if the precondition is met.

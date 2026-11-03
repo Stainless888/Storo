@@ -27,8 +27,8 @@ import (
 	"io"
 	"path"
 
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/sio"
 )
 

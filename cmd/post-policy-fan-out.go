@@ -23,12 +23,12 @@ import (
 	"maps"
 	"sync"
 
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/hash"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/kms"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/hash"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/kms"
 )
 
 type fanOutOptions struct {

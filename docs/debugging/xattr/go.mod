@@ -1,4 +1,4 @@
-module github.com/Stainless888/Storo/docs/debugging/xattr
+module github.com/Stainless888/storo/docs/debugging/xattr
 
 go 1.21
 

@@ -31,9 +31,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/config"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/Stainless888/Storo/internal/config"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 )
 
 var (

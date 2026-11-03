@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/grid"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/pubsub"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/grid"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/pubsub"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

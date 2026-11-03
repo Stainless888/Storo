@@ -34,11 +34,11 @@ import (
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 
-	"github.com/Stainless888/Storo/internal/auth"
-	levent "github.com/Stainless888/Storo/internal/config/lambda/event"
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/auth"
+	levent "github.com/Stainless888/storo/internal/config/lambda/event"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 var getLambdaEventData = func(bucket, object string, cred auth.Credentials, r *http.Request) (levent.Event, error) {

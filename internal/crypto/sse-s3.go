@@ -25,9 +25,9 @@ import (
 	"path"
 	"strings"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/kms"
-	"github.com/Stainless888/Storo/internal/logger"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/kms"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 type sses3 struct{}

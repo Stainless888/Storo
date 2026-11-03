@@ -15,7 +15,7 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package main // import "github.com/Stainless888/Storo"
+package main // import "github.com/Stainless888/storo"
 
 //go:generate go install tool
 
@@ -23,9 +23,9 @@ import (
 	"os"
 
 	// MUST be first import.
-	_ "github.com/Stainless888/Storo/internal/init"
+	_ "github.com/Stainless888/storo/internal/init"
 
-	minio "github.com/Stainless888/Storo/cmd"
+	minio "github.com/Stainless888/storo/cmd"
 )
 
 func main() {

@@ -20,8 +20,8 @@ package cmd
 import (
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/bucket/versioning"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/bucket/versioning"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 // BucketVersioningSys - policy subsystem.

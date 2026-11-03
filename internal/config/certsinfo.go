@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	color "github.com/Stainless888/Storo/internal/color"
+	color "github.com/Stainless888/storo/internal/color"
 )
 
 // Extra ASN1 OIDs that we may need to handle

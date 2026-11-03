@@ -23,11 +23,11 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/auth"
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/auth"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/policy"
 )
 

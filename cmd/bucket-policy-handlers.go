@@ -23,9 +23,9 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/Stainless888/storo/internal/logger"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

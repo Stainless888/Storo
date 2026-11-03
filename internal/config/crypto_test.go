@@ -23,7 +23,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/kms"
+	"github.com/Stainless888/storo/internal/kms"
 )
 
 var encryptDecryptTests = []struct {

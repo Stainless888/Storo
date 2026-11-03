@@ -18,10 +18,10 @@
 package mcontext
 
 // Share a common context information between different
-// packages in github.com/Stainless888/Storo
+// packages in github.com/Stainless888/storo
 
 import (
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 // ContextTraceType represents the type of golang Context key

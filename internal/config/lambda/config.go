@@ -17,7 +17,7 @@
 
 package lambda
 
-import "github.com/Stainless888/Storo/internal/event/target"
+import "github.com/Stainless888/storo/internal/event/target"
 
 // Config - lambda target configuration structure, holds
 // information about various lambda targets.

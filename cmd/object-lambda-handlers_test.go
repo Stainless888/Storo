@@ -30,12 +30,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/config/lambda"
+	levent "github.com/Stainless888/storo/internal/config/lambda/event"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/minio/minio-go/v7/pkg/signer"
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/config/lambda"
-	levent "github.com/Stainless888/Storo/internal/config/lambda/event"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 )
 
 func TestGetObjectLambdaHandler(t *testing.T) {

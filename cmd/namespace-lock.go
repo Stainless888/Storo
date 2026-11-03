@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/dsync"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/lsync"
+	"github.com/Stainless888/storo/internal/dsync"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/lsync"
 )
 
 // local lock servers
@@ -319,7 +319,7 @@ func getSource(n int) string {
 	if ok {
 		filename = pathutil.Base(filename)
 		funcName = strings.TrimPrefix(runtime.FuncForPC(pc).Name(),
-			"github.com/Stainless888/Storo/cmd.")
+			"github.com/Stainless888/storo/cmd.")
 	} else {
 		filename = "<unknown>"
 		lineNum = 0

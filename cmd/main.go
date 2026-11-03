@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/color"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/cli"
-	"github.com/Stainless888/Storo/internal/color"
-	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/pkg/v3/console"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/pkg/v3/trie"

@@ -21,9 +21,9 @@ import (
 	"runtime"
 	"runtime/debug"
 
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go/v3/kernel"
-	"github.com/Stainless888/Storo/internal/logger"
 	"github.com/minio/pkg/v3/sys"
 )
 

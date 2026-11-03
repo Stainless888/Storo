@@ -35,24 +35,24 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Stainless888/storo/internal/amztime"
+	"github.com/Stainless888/storo/internal/bucket/bandwidth"
+	objectlock "github.com/Stainless888/storo/internal/bucket/object/lock"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/config/storageclass"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/hash"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/kms"
+	"github.com/Stainless888/storo/internal/logger"
+	"github.com/Stainless888/storo/internal/once"
 	"github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/Stainless888/Storo/internal/amztime"
-	"github.com/Stainless888/Storo/internal/bucket/bandwidth"
-	objectlock "github.com/Stainless888/Storo/internal/bucket/object/lock"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/hash"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
-	"github.com/Stainless888/Storo/internal/kms"
-	"github.com/Stainless888/Storo/internal/logger"
-	"github.com/Stainless888/Storo/internal/once"
 	"github.com/tinylib/msgp/msgp"
 	"github.com/zeebo/xxh3"
 )
@@ -2697,7 +2697,7 @@ func (c replicationConfig) Resync(ctx context.Context, oi ObjectInfo, dsc Replic
 		}
 		for _, t := range tgtArns {
 			opts.TargetArn = t
-			// Update replication decision for target based on existing object replciation rule.
+			// Update replication decision for target based on existing object replication rule.
 			dsc.Set(newReplicateTargetDecision(t, c.Replicate(opts), false))
 		}
 		return c.resync(oi, dsc, tgtStatuses)

@@ -4,14 +4,14 @@ set -E
 set -o pipefail
 set -x
 
-if [ ! -x "$PWD/minio" ]; then
+if [ ! -x "$PWD/storo" ]; then
 	echo "minio executable binary not found in current directory"
 	exit 1
 fi
 
 WORK_DIR="$(mktemp -d)"
 MINIO_CONFIG_DIR="$WORK_DIR/.minio"
-MINIO=("$PWD/minio" --config-dir "$MINIO_CONFIG_DIR" server)
+MINIO=("$PWD/storo" --config-dir "$MINIO_CONFIG_DIR" server)
 
 function start_minio() {
 	start_port=$1

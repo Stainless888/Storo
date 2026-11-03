@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/config"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/config"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/minio/pkg/v3/policy"
 )

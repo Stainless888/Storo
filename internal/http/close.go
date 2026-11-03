@@ -20,7 +20,7 @@ package http
 import (
 	"io"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 // DrainBody close non nil response with any response Body.

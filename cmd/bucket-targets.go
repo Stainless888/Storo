@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/crypto"
+	"github.com/Stainless888/storo/internal/kms"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/crypto"
-	"github.com/Stainless888/Storo/internal/kms"
 )
 
 const (

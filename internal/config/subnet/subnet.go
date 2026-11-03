@@ -27,7 +27,7 @@ import (
 	"net/http"
 	"time"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 const (

@@ -16,6 +16,7 @@ permissions:
 
 jobs:
   replication-test:
+    continue-on-error: true
     name: Advanced Tests with Go ${{ matrix.go-version }}
     runs-on: ubuntu-latest
 

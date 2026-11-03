@@ -17,7 +17,7 @@
 
 package drive
 
-import "github.com/Stainless888/Storo/internal/config"
+import "github.com/Stainless888/storo/internal/config"
 
 var (
 	// MaxTimeout is the max timeout for drive

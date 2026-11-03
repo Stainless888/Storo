@@ -29,9 +29,9 @@ import (
 	"strconv"
 	"strings"
 
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	xhttp "github.com/Stainless888/storo/internal/http"
 
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 )
 
 // Whitelist resource list that will be used in query string for signature-V2 calculation.

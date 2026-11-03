@@ -27,8 +27,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Stainless888/storo/internal/grid"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/grid"
 	"github.com/minio/pkg/v3/sync/errgroup"
 )
 

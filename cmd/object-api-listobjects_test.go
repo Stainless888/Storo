@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
 )
 
 func TestListObjectsVersionedFolders(t *testing.T) {

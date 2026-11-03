@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/Stainless888/Storo/internal/color"
+	"github.com/Stainless888/storo/internal/color"
 )
 
 var ansiRE = regexp.MustCompile("(\x1b[^m]*m)")

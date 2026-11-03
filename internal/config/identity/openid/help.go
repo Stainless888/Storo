@@ -17,7 +17,7 @@
 
 package openid
 
-import "github.com/Stainless888/Storo/internal/config"
+import "github.com/Stainless888/storo/internal/config"
 
 // Help template for OpenID identity feature.
 var (

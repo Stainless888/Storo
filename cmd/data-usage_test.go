@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/cachevalue"
+	"github.com/Stainless888/storo/internal/cachevalue"
 )
 
 type usageTestFile struct {

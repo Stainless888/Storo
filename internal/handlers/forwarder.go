@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/bpool"
 )
 
 const defaultFlushInterval = time.Duration(100) * time.Millisecond

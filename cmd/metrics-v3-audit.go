@@ -20,7 +20,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 )
 
 // Key used for Get/SetReqInfo

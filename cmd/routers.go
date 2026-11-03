@@ -20,7 +20,7 @@ package cmd
 import (
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/grid"
+	"github.com/Stainless888/storo/internal/grid"
 	"github.com/minio/mux"
 )
 

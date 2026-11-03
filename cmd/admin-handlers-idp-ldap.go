@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Stainless888/storo/internal/auth"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/auth"
 	"github.com/minio/mux"
 	xldap "github.com/minio/pkg/v3/ldap"
 	"github.com/minio/pkg/v3/policy"

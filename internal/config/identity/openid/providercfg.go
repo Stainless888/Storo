@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/arn"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/config/identity/openid/provider"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/arn"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/config/identity/openid/provider"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

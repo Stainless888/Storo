@@ -24,8 +24,8 @@ import (
 	"io"
 	"strings"
 
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/minio/madmin-go/v3"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 )
 
 // WarmBackendGetOpts is used to express byte ranges within an object. The zero

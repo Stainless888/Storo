@@ -27,9 +27,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Stainless888/Storo/internal/etag"
-	"github.com/Stainless888/Storo/internal/hash/sha256"
-	"github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/etag"
+	"github.com/Stainless888/storo/internal/hash/sha256"
+	"github.com/Stainless888/storo/internal/ioutil"
 )
 
 // A Reader wraps an io.Reader and computes the MD5 checksum

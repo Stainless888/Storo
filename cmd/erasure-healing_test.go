@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Stainless888/storo/internal/config/storageclass"
 	"github.com/dustin/go-humanize"
 	uuid2 "github.com/google/uuid"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
 )
 
 // Tests isObjectDangling function

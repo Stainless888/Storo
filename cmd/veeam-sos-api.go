@@ -25,8 +25,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/logger"
 )
 
 // From Veeam-SOSAPI_1.0_Document_v1.02d.pdf

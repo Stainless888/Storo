@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/bpool"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	"github.com/Stainless888/storo/internal/config/storageclass"
+	xhttp "github.com/Stainless888/storo/internal/http"
 	"github.com/cespare/xxhash/v2"
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/Stainless888/Storo/internal/bpool"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	"github.com/Stainless888/Storo/internal/config/storageclass"
-	xhttp "github.com/Stainless888/Storo/internal/http"
 	"github.com/tinylib/msgp/msgp"
 )
 
@@ -965,7 +965,7 @@ func (x *xlMetaV2) loadIndexed(buf xlMetaBuf, data xlMetaInlineData) error {
 		}
 		ver.meta = meta
 
-		// Fix inconsistent compression index due to https://github.com/Stainless888/Storo/pull/20575
+		// Fix inconsistent compression index due to https://github.com/Stainless888/storo/pull/20575
 		// First search marshaled content for encoded values.
 		// We have bumped metaV to make this check cheaper.
 		if metaV < 3 && ver.header.Type == ObjectType && bytes.Contains(meta, []byte("\xa7PartIdx")) &&

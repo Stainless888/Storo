@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

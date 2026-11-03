@@ -21,7 +21,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/dsync"
+	"github.com/Stainless888/storo/internal/dsync"
 )
 
 // Tests lock rpc client.

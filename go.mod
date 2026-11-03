@@ -1,4 +1,4 @@
-module github.com/Stainless888/Storo
+module github.com/Stainless888/storo
 
 go 1.24.0
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Stainless888/Storo/internal/grid"
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/grid"
+	"github.com/Stainless888/storo/internal/logger"
 )
 
 func proxyLogIf(ctx context.Context, err error, errKind ...any) {

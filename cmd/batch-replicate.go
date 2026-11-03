@@ -20,8 +20,8 @@ package cmd
 import (
 	"time"
 
+	"github.com/Stainless888/storo/internal/auth"
 	miniogo "github.com/minio/minio-go/v7"
-	"github.com/Stainless888/Storo/internal/auth"
 	"github.com/minio/pkg/v3/xtime"
 )
 

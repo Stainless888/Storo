@@ -26,11 +26,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/amztime"
-	"github.com/Stainless888/Storo/internal/bucket/lifecycle"
-	"github.com/Stainless888/Storo/internal/event"
-	"github.com/Stainless888/Storo/internal/hash"
-	xhttp "github.com/Stainless888/Storo/internal/http"
+	"github.com/Stainless888/storo/internal/amztime"
+	"github.com/Stainless888/storo/internal/bucket/lifecycle"
+	"github.com/Stainless888/storo/internal/event"
+	"github.com/Stainless888/storo/internal/hash"
+	xhttp "github.com/Stainless888/storo/internal/http"
 )
 
 var etagRegex = regexp.MustCompile("\"*?([^\"]*?)\"*?$")

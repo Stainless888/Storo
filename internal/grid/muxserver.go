@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 type muxServer struct {

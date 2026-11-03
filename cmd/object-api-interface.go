@@ -23,13 +23,13 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Stainless888/storo/internal/hash"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/Stainless888/Storo/internal/hash"
 
-	"github.com/Stainless888/Storo/internal/bucket/replication"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/bucket/replication"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 )
 
 //go:generate msgp -file $GOFILE -io=false -tests=false -unexported=false

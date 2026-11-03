@@ -18,8 +18,8 @@
 package notify
 
 import (
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/event/target"
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/event/target"
 )
 
 const (

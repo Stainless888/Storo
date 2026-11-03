@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Stainless888/storo/internal/arn"
+	"github.com/Stainless888/storo/internal/auth"
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	"github.com/Stainless888/Storo/internal/arn"
-	"github.com/Stainless888/Storo/internal/auth"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/minio/pkg/v3/policy"
 )

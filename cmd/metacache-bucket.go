@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stainless888/Storo/internal/logger"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/pkg/v3/console"
 )
 

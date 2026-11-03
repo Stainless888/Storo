@@ -24,7 +24,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Stainless888/Storo/internal/auth"
+	"github.com/Stainless888/storo/internal/auth"
 )
 
 // Test S3 Bucket lifecycle APIs with wrong credentials

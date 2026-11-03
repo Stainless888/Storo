@@ -16,7 +16,7 @@
 Requires [Go](https://golang.org/doc/install) 1.24+.
 
 ```sh
-go install github.com/Stainless888/Storo@latest
+go install github.com/Stainless888/storo@latest
 ```
 
 Or build a target platform manually:
@@ -42,7 +42,7 @@ mc mb data && mc ls data
 | | |
 |---|---|
 | Binary | `storo` |
-| Module | `github.com/Stainless888/Storo` |
+| Module | `github.com/Stainless888/storo` |
 | Default ports | API + Console on `:9000` |
 | S3 health check | `GET /minio/health/live` (kept for tooling compatibility) |
 
@@ -55,3 +55,5 @@ Build from source first (`go build -o storo`), then adapt `Dockerfile` and `dock
 - Source: [GNU AGPLv3](LICENSE) — original copyright by MinIO Inc. and contributors retained, modifications by Stainless888.
 - Docs: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [License Compliance](COMPLIANCE.md)
+
+*Storo: your own S3, your own rules.*

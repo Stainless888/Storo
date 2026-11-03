@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Stainless888/storo/internal/disk"
+	"github.com/Stainless888/storo/internal/net"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/disk"
-	"github.com/Stainless888/Storo/internal/net"
 	c "github.com/shirou/gopsutil/v3/cpu"
 	"github.com/shirou/gopsutil/v3/load"
 )

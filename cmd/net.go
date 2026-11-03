@@ -25,9 +25,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Stainless888/storo/internal/config"
+	"github.com/Stainless888/storo/internal/logger"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/Stainless888/Storo/internal/config"
-	"github.com/Stainless888/Storo/internal/logger"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

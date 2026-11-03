@@ -12,7 +12,7 @@ keywords:
 home: https://min.io
 icon: https://min.io/resources/img/logo/MINIO_wordmark.png
 sources:
-- https://github.com/Stainless888/Storo
+- https://github.com/Stainless888/storo
 maintainers:
 - name: MinIO, Inc
   email: dev@minio.io

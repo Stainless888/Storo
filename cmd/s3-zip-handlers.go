@@ -28,10 +28,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Stainless888/Storo/internal/auth"
-	"github.com/Stainless888/Storo/internal/crypto"
-	xhttp "github.com/Stainless888/Storo/internal/http"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
+	"github.com/Stainless888/storo/internal/auth"
+	"github.com/Stainless888/storo/internal/crypto"
+	xhttp "github.com/Stainless888/storo/internal/http"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/minio/pkg/v3/policy"
 	"github.com/minio/zipindex"
 )

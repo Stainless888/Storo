@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
+	"github.com/Stainless888/storo/internal/auth"
+	xioutil "github.com/Stainless888/storo/internal/ioutil"
 	"github.com/minio/dperf/pkg/dperf"
 	"github.com/minio/madmin-go/v3"
-	"github.com/Stainless888/Storo/internal/auth"
-	xioutil "github.com/Stainless888/Storo/internal/ioutil"
 )
 
 const speedTest = "speedtest"
