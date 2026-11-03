@@ -220,7 +220,7 @@ function __init__() {
 	mkdir -p "$MINT_DATA_DIR"
 
 	MC_BUILD_DIR="mc-$RANDOM"
-	if ! git clone --quiet --branch RELEASE.2025-08-13T08-35-41Z --depth 1 https://github.com/minio/mc "$MC_BUILD_DIR"; then
+	if ! git clone --quiet --branch v1.7.7-storo --depth 1 https://github.com/Stainless888/mc "$MC_BUILD_DIR"; then
 		echo "failed to download https://github.com/minio/mc"
 		purge "${MC_BUILD_DIR}"
 		exit 1
@@ -237,8 +237,8 @@ function __init__() {
 	## version is purposefully set to '3' for minio to migrate configuration file
 	echo '{"version": "3", "credential": {"accessKey": "minio", "secretKey": "minio123"}, "region": "us-east-1"}' >"$MINIO_CONFIG_DIR/config.json"
 
-	if ! wget -q -O "$FUNCTIONAL_TESTS" https://raw.githubusercontent.com/minio/mc/RELEASE.2025-08-13T08-35-41Z/functional-tests.sh; then
-		echo "failed to download https://raw.githubusercontent.com/minio/mc/RELEASE.2025-08-13T08-35-41Z/functional-tests.sh"
+	if ! wget -q -O "$FUNCTIONAL_TESTS" https://raw.githubusercontent.com/Stainless888/mc/v1.7.7-storo/functional-tests.sh; then
+		echo "failed to download https://raw.githubusercontent.com/Stainless888/mc/v1.7.7-storo/functional-tests.sh"
 		exit 1
 	fi
 

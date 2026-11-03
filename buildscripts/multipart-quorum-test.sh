@@ -54,7 +54,7 @@ function start_minio_10drive() {
 	C_PWD=${PWD}
 	if [ ! -x "$PWD/mc" ]; then
 		MC_BUILD_DIR="mc-$RANDOM"
-		if ! git clone --quiet --branch RELEASE.2025-08-13T08-35-41Z --depth 1 https://github.com/minio/mc "$MC_BUILD_DIR"; then
+		if ! git clone --quiet --branch v1.7.7-storo --depth 1 https://github.com/Stainless888/mc "$MC_BUILD_DIR"; then
 			echo "failed to download https://github.com/minio/mc"
 			purge "${MC_BUILD_DIR}"
 			exit 1
