@@ -28,6 +28,11 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
           check-latest: true
+      - name: Install mc
+        run: |
+          go install github.com/Stainless888/mc@v1.7.7-storo
+          mv "$(go env GOPATH)/bin/mc" ./mc
+          cp ./mc /tmp/mc
       - name: Build on ${{ matrix.os }}
         if: matrix.os == 'ubuntu-latest'
         env:
