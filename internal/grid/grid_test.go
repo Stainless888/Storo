@@ -96,7 +96,7 @@ func TestSingleRoundtrip(t *testing.T) {
 		resp, err := remoteConn.Request(t.Context(), handlerTest2, []byte(testPayload))
 		t.Log("Roundtrip:", time.Since(start))
 		if len(resp) != 0 {
-			t.Errorf("want nil, got %q", string(resp))
+			t.Errorf("want nil, got %v", string(resp))
 		}
 		if err != RemoteErr(testPayload) {
 			t.Errorf("want error %v(%T), got %v(%T)", RemoteErr(testPayload), RemoteErr(testPayload), err, err)
@@ -122,7 +122,7 @@ func TestSingleRoundtrip(t *testing.T) {
 		start := time.Now()
 		resp, err := remoteConn.Request(t.Context(), handlerTest2, testPayload)
 		if len(resp) != 0 {
-			t.Errorf("want nil, got %q", string(resp))
+			t.Errorf("want nil, got %v", string(resp))
 		}
 		if err != RemoteErr(testPayload) {
 			t.Errorf("want error %v(%T), got %v(%T)", RemoteErr(testPayload), RemoteErr(testPayload), err, err)
@@ -242,7 +242,7 @@ func TestSingleRoundtripGenerics(t *testing.T) {
 		t.Errorf("want error %v(%T), got %v(%T)", RemoteErr(testPayload), RemoteErr(testPayload), err, err)
 	}
 	if resp != nil {
-		t.Errorf("want nil, got %q", resp)
+		t.Errorf("want nil, got %v", resp)
 	}
 	h2.PutResponse(resp)
 	t.Log("Roundtrip:", time.Since(start))
@@ -304,7 +304,7 @@ func TestSingleRoundtripGenericsRecycle(t *testing.T) {
 		t.Errorf("want error %v(%T), got %v(%T)", RemoteErr(testPayload), RemoteErr(testPayload), err, err)
 	}
 	if resp != nil {
-		t.Errorf("want nil, got %q", resp)
+		t.Errorf("want nil, got %v", resp)
 	}
 	t.Log("Roundtrip:", time.Since(start))
 	h2.PutResponse(resp)

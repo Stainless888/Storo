@@ -25,8 +25,7 @@ done
 sleep 10s
 
 if [ ! -f ./mc ]; then
-	wget --quiet -O ./mc https://dl.min.io/client/mc/release/linux-amd64/./mc &&
-		chmod +x mc
+	go install github.com/Stainless888/mc@v1.7.7-storo && mv "$(go env GOPATH)/bin/mc" ./mc
 fi
 
 set +e
