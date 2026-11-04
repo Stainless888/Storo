@@ -16,7 +16,6 @@ permissions:
 
 jobs:
   build:
-    continue-on-error: true
     name: Go ${{ matrix.go-version }} on ${{ matrix.os }} - healing
     runs-on: ${{ matrix.os }}
     strategy:
